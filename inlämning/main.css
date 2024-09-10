@@ -6,6 +6,8 @@
     --color-gray600: #9397ad ;
     --color-white: #ffffff ;
     --color-gray300: #e2e5f1 ;
+    --color-gray900: #0b0f19;
+    --color-gray700: #565973; 
 
     --container-padding: 1rem;
     --transition-time: all 0,2s;
@@ -224,6 +226,31 @@ footer {
     align-items: center;
 }
 
+.container {
+    color: var(--color-gray900);
+    padding-right: 3rem;
+    
+}
+
+.h1 {
+    padding: 0.7rem;
+}
+
+.undertext {
+    color: var(--color-gray700);
+    padding: 0.8rem;
+}
+
+.bilder {
+    width: 180px;
+    height: 52px;
+    padding-top: 0.5rem;
+    padding: 0.5rem;
+    padding-right: 2rem;
+    
+}
+
+
 @media (min-width: 768px) {
     .container {
     max-width: 720px;
@@ -245,6 +272,7 @@ footer {
     }
 }
 
+
 #brands {
     display: block;
 
@@ -254,6 +282,7 @@ footer {
     display: none;
 }
 }
+
 
 @media (min-width: 1000px) {
     .container {
