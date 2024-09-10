@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid #000;
+    height: 400px;
+    /* width: 400px; */
+    aspect-ratio: 1;
+    margin: 5rem auto;
+    }
+
+.ball {
+    height: 50px;
+    aspect-ratio: 1;
+    background-color: red;
+    border-radius: 50%;
+
+
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
