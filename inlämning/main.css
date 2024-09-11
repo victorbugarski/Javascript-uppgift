@@ -234,20 +234,46 @@ footer {
 
 .h1 {
     padding: 0.7rem;
+    margin-left: 1rem;
 }
 
 .undertext {
     color: var(--color-gray700);
     padding: 0.8rem;
+    margin-left: 1rem;
 }
 
-.bilder {
+section .bilder {
     width: 180px;
-    height: 52px;
     padding-top: 0.5rem;
-    padding: 0.5rem;
-    padding-right: 2rem;
-    
+    padding-bottom: 20rem;
+    padding-left: 0rem;
+    margin-left: 1.5rem;
+}
+
+.right-image {
+    float: right;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 100%;
+    padding-right: 4rem;
+    width: 520px;
+    /* height: 340px; */
+    max-height: 70%;
+    padding-bottom: 5rem;
+}
+
+/* section .container-1 {
+    background-color: red
+} */
+
+.bilder-1 {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+section .container-1{
+    background-image: linear-gradient( #f6f7fa2f, #b84ac705, #797bd712);
 }
 
 
