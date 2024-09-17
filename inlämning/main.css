@@ -8,6 +8,7 @@
     --color-gray300: #e2e5f1 ;
     --color-gray900: #0b0f19;
     --color-gray700: #565973; 
+    --color-gray100: #f3f6ff;
 
     --container-padding: 1rem;
     --transition-time: all 0,2s;
@@ -541,4 +542,37 @@ h1{
         color: var(--color-gray700);
     }
 
+}
+
+.how-it-works {
+    background-color: var(--color-gray100);
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.text-nedre {
+    h3 {
+    color: var(--color-gray900);
+    font-size: 24px;
+    font-weight: 800;     
+    }
+    
+
+    p {
+        color: var(--color-gray700);
+        padding-bottom: 5rem;
+    }
 }
