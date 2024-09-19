@@ -9,6 +9,8 @@
     --color-gray900: #0b0f19;
     --color-gray700: #565973; 
     --color-gray100: #f3f6ff;
+    --color-gray500: #b4b7c9;
+    --color-gray400: #d4d7e5;
 
     --container-padding: 1rem;
     --transition-time: all 0,2s;
@@ -665,4 +667,72 @@ h2 {
   }
 
 
+}
+
+.clients {
+    background-color: var(--color-gray100);
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+
+    .container-5 {
+        padding-top: 1rem;
+        padding-left: 8rem;
+        font-size: 40px;
+        font-weight: 800;
+        color: var(--color-gray900);
+    }
+
+    .bilder {
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+}
+
+.subscribe {
+    background-color: var(--color-gray100);
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .container-6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .klockan {
+        display: flex;
+        margin-right: 6rem;
+    }
+
+    .email {
+        display: flex;
+        padding-left: 8rem;
+    }
+
+     .knapp {
+        background-color: var(--color-primary);
+        color: white;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .input {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .form {
+        display: flex;
+        align-items: stretch;
+    }
 }
