@@ -598,6 +598,7 @@ h2 {
         border: none;
         border-radius: 5px;
         font-size: 14px;
+        margin-top: 2rem;
         
     }
     
@@ -608,16 +609,43 @@ h2 {
         font-weight: 800;
     }
 
-    li {
-        margin-left: 8.5rem;
+    .p-1 {
+        display: flex;
+        margin-left: 10rem;
         color: var(--color-gray700);
         font-size: 16px;
         font-weight: 400;
+        gap: .5rem;
+    }
+
+    .p-2 {
+        display: flex;
+        margin-left: 10rem;
+        color: var(--color-gray700);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1rem;
+        gap: .5rem;
+    }
+
+    .p-3 {
+        display: flex;
+        margin-left: 10rem;
+        color: var(--color-gray700);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 1rem;
+        gap: .5rem;
     }
 
     .bild-uppe {
         margin-right: 7rem;
     }
+
+}
+
+.check-1 {
+    position: relative;
 }
 
 .contacts {
@@ -715,6 +743,7 @@ h2 {
     .email {
         display: flex;
         padding-left: 8rem;
+        position: relative;
     }
 
      .knapp {
@@ -731,13 +760,25 @@ h2 {
         padding: 10px 20px;
         font-size: 16px;
         font-weight: 400;
+        padding-left: 2rem;
+        border-radius: 5px 0 0 5px;
+        border: 1px solid rgba(128, 128, 128, 0.256);
     }
 
     .form {
         display: flex;
         align-items: stretch;
     }
+
+    .msg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: .5rem;
+    }   
 }
+
+
 
 .faqs {
     display: flex;
