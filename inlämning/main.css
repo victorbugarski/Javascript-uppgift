@@ -785,10 +785,8 @@ h2 {
 
 
 .faqs {
-    display: flex;
-    grid-template-columns: 1fr 2fr;
-    justify-content: space-between;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 
     .container-7 {
@@ -796,7 +794,7 @@ h2 {
             font-size: 32px;
             font-weight: 800;
             color: var(--color-gray900);
-            margin-left: 2rem;
+            margin-left: 5rem;
         }
 
         p {
@@ -805,27 +803,26 @@ h2 {
             color: var(--color-gray700);
             margin-left: 2rem;
         }
+
+        .övre {
+            margin-left: 5rem;
+        }
     }
 }  
     
     .vänster {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
     }
 
     .contact-box {
         padding: 20px;
-        margin-left: 2rem;
+        margin-left: 5rem;
         margin-top: 1rem;
         border: 1px solid #ddd;
         margin-bottom: 1rem;
         border-radius: 10px;
-
-        p{
-            margin-left: 2rem;
-            font-size: 14px;
-            font-weight: 400;
-            color: var(--color-gray700);
-        }
 
     .fa-solid {
         margin-left: 2rem;
@@ -844,7 +841,6 @@ h2 {
         border-radius: 10px;
 
         p {
-            margin-left: 2rem;
             font-size: 14px;
             font-weight: 400;
             color: var(--color-gray700);
@@ -877,23 +873,25 @@ h2 {
     }
 
     .container-8 {
-        flex: 2;
+        display: grid;
+        justify-content: center;
+        align-items: center;
         padding-bottom: 5rem;
 
         .item {
             background-color: #ddd;
             border: none;
             box-shadow: 1px 1px 1px 1px solid;
-            margin-bottom: 10px;
-            border-radius: 5px;
+            margin-bottom: 5px;
             margin-right: 5rem;
-            margin-top: 3rem;
+            margin-top: 1rem;
             margin-left: 6rem;
             
         }
 
         .question {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto;
         justify-content: space-between;
         align-items: center;
         width: 100%;
@@ -946,6 +944,7 @@ h2 {
         .arrow-2 {
             color: var(--color-white);
             position: relative;
+            margin-bottom: 1rem;
         }
         }
 
